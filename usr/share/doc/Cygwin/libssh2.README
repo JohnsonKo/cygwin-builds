@@ -1,0 +1,66 @@
+libssh2
+------------------------------------------
+libssh2 is a library implementing the SSH2 protocol as defined by 
+Internet Drafts: SECSH-TRANS, SECSH-USERAUTH, SECSH-CONNECTION, 
+SECSH-ARCH, SECSH-FILEXFER, SECSH-DHGEX, SECSH-NUMBERS, and 
+SECSH-PUBLICKEY.
+
+Runtime requirements:
+  cygwin-1.7.5-1
+  libgcc1-4.3.4-3
+  openssl-0.9.8n-1
+  zlib0-1.2.3-10
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.65-1
+  automake1.9-1.9.6-10
+  binutils-2.20.51-2
+  cygport-0.9.84-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  libtool-2.2.7a-15
+  make-3.81-2
+
+Canonical website:
+  http://www.libssh2.org/
+
+Canonical download:
+  http://downloads.sourceforge.net/libssh2/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libssh2-1.2.5-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libssh2-1.2.5-X.cygport all
+
+This will create:
+  /usr/src/libssh2-1.2.5-X-src.tar.bz2
+  /usr/src/libssh2-devel-1.2.5-X.tar.bz2
+  /usr/src/libssh2_1-1.2.5-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 1.2.5-1 -----
+Version bump.
+
+----- version 1.2.2-1 -----
+Version bump.
+
+----- version 1.2.1-1 -----
+Version bump.
+
+----- version 1.2-1 -----
+Version bump.
+
+----- version 1.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

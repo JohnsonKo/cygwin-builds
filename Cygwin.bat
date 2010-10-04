@@ -1,6 +1,6 @@
 @echo off
 
 C:
-chdir C:\cygwinlean\bin
+chdir C:\cygwin-builds\bin
 
 bash --login -i
